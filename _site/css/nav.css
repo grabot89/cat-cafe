@@ -1,0 +1,25 @@
+nav.nav-flex-box {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	align-items: center;
+	margin-top: 1em;
+	margin-bottom: 50px;
+	font-weight: bolder;
+
+}
+
+nav ul { 
+	display: flex;
+  	align-items: center;
+  	color:#C53683 ;
+}
+
+nav ul li {  
+	margin-right: 20px;
+	color:#C53683 ;
+}
+
+.active, nav ul li:hover {
+	background-color: rgb(255 204 234);
+}

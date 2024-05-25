@@ -1,0 +1,63 @@
+img {
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  padding: 5px;
+
+}
+
+
+.bottomcat{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+figure {
+border: 0px 
+padding: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+figcaption {
+  background-color: rgb(255 204 234);
+  color: rgb(197 54 131);
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+
+#members-images {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.meowpic {
+    display: grid;
+    grid-template-columns: repeat(3, 15fr);
+    grid-template-rows: repeat(3, 30vw);
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.bookcat{
+  margin-left: 30%;
+  margin-right: 30%;
+
+  }
+
+
+ .rulecat {
+  margin-left: 30%;
+  margin-right: 30%;
+
+  }
+
+

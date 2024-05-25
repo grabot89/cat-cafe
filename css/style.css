@@ -1,0 +1,180 @@
+@import url("header.css");
+@import url("nav.css"); 
+@import url("image.css");
+
+html {
+    height: 100%;
+}
+
+body {
+  background-image: url("/images/background1.png");
+  font-family: Verdana;
+  font-weight: normal;
+  min-height: 100%;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255 204 234);
+  font color: rgb(197 54 131);
+  align-items: flex-start;
+  font-family: verdana;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.flex-item {
+	border-right: 2px solid black;
+
+     color: rgb(197 54 131);
+}
+
+p {
+  border: 10px rgb(255 204 234) ;
+  padding: 30px;
+  margin: 50px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 1.5;
+  color: lightpink;
+  font-weight: bold;
+}
+
+#location-text {
+  color: #C53683;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+article {
+  background-color: rgb(229 109 144);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main {
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 100%;
+}
+
+footer {
+	bottom: 0;
+	text-align: center;
+	margin-top: 2em ;
+  margin-bottom: 1em ;
+  color: #C53683;
+  font-weight: bolder;
+}
+
+#footer-text {
+  color: #C53683;
+}
+
+.container-home {
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Verdana;
+}
+
+.container-home2 {
+  width: 80%;
+  height: auto;
+  background-color: rgb(229 109 144);
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Verdana;
+}
+
+h1 { 
+  text-align: center;
+  margin-top: 2em ;
+  margin-bottom: 2em ;
+  color: #C53683;
+  text-decoration: underline;
+  font-size: 2em;
+
+}
+
+h2 {
+color: #C53683;
+ text-align: center;
+ margin-top: 2em ;
+margin-bottom: 2em ;
+  font-size: 2em;
+}
+
+
+aside {
+  color: #C53683;
+  font-weight: bolder;
+}
+
+a {
+  color: #C53683;
+}
+
+
+.tablestyle {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: verdana;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.darkparagraph {
+  color:black;
+}
+
+#tea-cat {
+  width: 100%;
+  height: 300px;
+
+}
+
+#bottom-cat {
+  margin-left: 25%;
+  width:50%;
+}
+
+address {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  color: #C53683;
+}
+
+
+/* Rules */
+.spa-rules {
+
+  color: 
+rgb(255 204 234);
+}
+
+/* Cafe Menu */
+.cafe-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  align-content: space-between;
+}
+.cafe-item {
+  flex: 1 0 auto;
+  margin: 10px;
+}
+ 
+
+.sparules{
+margin-left: 0%;
+}
+
+
